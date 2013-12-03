@@ -1,5 +1,7 @@
 .adobe/
 .cache/
+.config/mpd/playlists/
+.config/Skype/
 .lyrics/
 .macromedia/
 .Skype/
@@ -13,7 +15,15 @@ Downloads/
 Pictures/
 Movies/
 Music/
+aur/
 devel/
+.config/mpd/database
+.config/mpd/log
+.config/mpd/pid
+.config/mpd/socket
+.config/mpd/state
+.config/mpd/sticker.sql
+.ICEauthority
 .bash_history
 .pulse-cookie
 .steampath

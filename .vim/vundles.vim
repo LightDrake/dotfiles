@@ -15,13 +15,10 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
-" My Bundles here:
-" 
 " Status Line
 Bundle 'bling/vim-airline'
 
 " Colors
-Bundle 'vim-scripts/Liquid-Carbon'
 Bundle 'tomasr/molokai'
 
 " Required by vundle

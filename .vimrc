@@ -1,20 +1,32 @@
 " drakes vim file. yep.
-" Let's be improved!
+" Let's be iMproved!
 set nocompatible
+set encoding=utf-8
 
+" Set map leader to , this must be before plugins
+let mapleader=","
+
+" Import Vundle and Plugins
+if filereadable(expand("~/.vim/vundles.vim"))
+  source ~/.vim/vundles.vim
+endif
+
+" Turn on syntax highlighting!
+syntax on
+
+" General
 set laststatus=2
 set number
 set showcmd
 set showmode
 
-" Turn on syntax highlighting!
-syntax on
+" Colors
+set t_Co=256
+set bg=dark
+let g:molokai_original = 1
+colorscheme molokai
 
-" Set map leader to , -must be before plugins
-let mapleader=","
-
-" Import vundle
-if filereadable(expand("~/.vim/vundles.vim"))
-  source ~/.vim/vundles.vim
+" Plugin Settings Files
+if filereadable(expand("~/.vim/settings.vim"))
+  source ~/.vim/settings.vim
 endif
-
