@@ -2,6 +2,7 @@
 " Let's be iMproved!
 set nocompatible
 set encoding=utf-8
+set mouse=a
 
 " Set map leader to , this must be before plugins
 let mapleader=","
@@ -22,7 +23,7 @@ set showmode
 
 " Colors
 set t_Co=256
-set bg=dark
+set background=dark
 let g:molokai_original = 1
 colorscheme molokai
 

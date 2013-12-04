@@ -20,6 +20,10 @@ Bundle 'bling/vim-airline'
 
 " Colors
 Bundle 'tomasr/molokai'
+Bundle 'altercation/vim-colors-solarized'
+
+" VCS Support
+Bundle 'tpope/vim-fugitive'
 
 " Required by vundle
 filetype plugin indent on
