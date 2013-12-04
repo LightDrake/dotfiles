@@ -17,6 +17,7 @@ syntax on
 
 " General
 set laststatus=2
+set nowrap
 set number
 set showcmd
 set showmode
@@ -25,7 +26,7 @@ set showmode
 set t_Co=256
 set background=dark
 let g:molokai_original = 1
-colorscheme molokai
+colorscheme solarized
 
 " Plugin Settings Files
 if filereadable(expand("~/.vim/settings.vim"))
